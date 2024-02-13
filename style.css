@@ -719,6 +719,11 @@ footer .social-links i {
 footer .location {
     padding-left: 8px;
 }
+@media (max-width:450px) {
+    footer .location {
+        padding-left: 1px;
+    }
+}
 footer .copy {
     color: rgba(255, 255, 255, 0.4);
     
