@@ -170,6 +170,11 @@ body {
     position: relative;
     height: 90vh;
 }
+@media (max-width:767px) {
+    .banner {
+        height: 110vh;
+    }
+}
 .banner .text {
     position: absolute;
     align-items: center;
@@ -180,6 +185,7 @@ body {
 @media (max-width:767px) {
     .banner .text {
         width: 400px;
+        top: 10%;
     }
 }
 @media (max-width:410px) {
